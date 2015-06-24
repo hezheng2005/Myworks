@@ -1,1 +1,8 @@
-Daily Activity Paterns.md Education Opportunity.pdf Handmade Soap Market Research.docx How Should Indicators be Found for Scenario Monitoring.pdf How Should Indicators be Found for Scenario Monitoring_Executive_Summary.pdf
+#This repo includes some of my past analysis works
+
+## Here is a list of them:
+
+- Handmade Soap Market Research
+- How Should Indicators be Found for Scenario Monitoring & Executive Summary
+- People's Daily Activity Paterns
+- Education Opportunity
