@@ -23,7 +23,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/NDY2NDM5OTo3OTEwM2I4MzdjZmY0Y2ZiMzY1NmZmZWEyYjc1Yzg0MDoyNzhjNDIyOGUxMWJmMGRmYTE3MDA5NzcxNmMwODRlMjgyN2U2NDhiOTYzYzgwNzNlYWFlYjVjYjcxNzAyOGVk--53f587b24e8863b88244752dbb1b3976f84e419d">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/NDY2NDM5OTo3OTEwM2I4MzdjZmY0Y2ZiMzY1NmZmZWEyYjc1Yzg0MDpjMDFlZmI4ZjI4YzQxZjE3MjQzMTM5NjgxZjYzYzA5OGVhYjZhOWVmNGEwNjlmYTQxMzRjNTdkMzgxM2E2MWFh--b37a6c0acc24fb0ee0b2725ad34c7f90e64ffc77">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -33,7 +33,7 @@
 
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="76908525:7354:EC79398:558AD573" name="octolytics-dimension-request_id" /><meta content="4664399" name="octolytics-actor-id" /><meta content="hezheng2005" name="octolytics-actor-login" /><meta content="0a0b2b174f7089eace979f8a38c0f9e449791e19ae4d5a322d879ae1282dc51c" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="76908525:7354:EC8E99E:558AD620" name="octolytics-dimension-request_id" /><meta content="4664399" name="octolytics-actor-id" /><meta content="hezheng2005" name="octolytics-actor-login" /><meta content="0a0b2b174f7089eace979f8a38c0f9e449791e19ae4d5a322d879ae1282dc51c" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -47,7 +47,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="OYT7y6RlK27yPnE1cNg9jbThxv71s1Kb8t08YoYf2vD2PvJbzlc8COCCJ5JWoeFw8uy2sUkad0XSmFKe5vdeVQ==" name="csrf-token" />
+<meta content="drasmOB1A7XayIcmSr90jVd9czNx7rsxlX+w8uyRiVam/vpHnKX6wLNmm3Z12ynXIgIia+Q+WL6XBiosckzIrQ==" name="csrf-token" />
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-fdcc56b9252a5c29d9f914d96ef62f69710f37719a28d3d65b8affe62720a7c4.css" media="all" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-c448922147ea2461a83f9e084b9dda6731537d3dc0dec4a245b0bfc0f2aac43e.css" media="all" rel="stylesheet" />
@@ -194,7 +194,7 @@
           Settings
         </a>
 
-        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qzy6TSyCZi/bF92bZSxKfCirc03lXp2dVs0NR+aHunDmV+YPaSgN18mJ34IQ6hcEq47WwolGPcu4qCKbpwaG2g==" /></div>
+        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fRNc6otrhljDSNxKGIgkD4T+I4r3FQVXVxagzEnEp+9sg7N/CjIPwin6Z3iAJCVYXJho/vf8cBh0n3ZCdYw7hA==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -225,7 +225,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="uWQ+h09+k8288vejVlBlIKZLYg3MVPG7ob3aCFoThACRyCzAynKMXW29PPvBKDeCKLbx5i+dp+Q6LvC7Fdg+kw==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="37403100" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JCEa9Q4hsahDbZZkvZdzDz4OnfVsp9kRL/2Ez4x9utctXBMCn8PDK9vy+z8KykAXrxGOKwgn0wM1Mq1U/His8A==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="37403100" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/hezheng2005/RepData_PeerAssessment1/subscription"
@@ -300,7 +300,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Cjpd3ATjLuF050aGc8WkNJKDyoXMXIdH/gEB63oDd/8bvkRlZuAJAbKco8dRFmFwNrk5LRf3qpNSWyO9L8oupw==" /></div>
+    <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xPJG8PLJ+vjyvsxXEqOleGoZHtr56ueA2+vN2DvIJHLmSBaZuaEsl9jT6BcwdAOweIwiB+L1s+MP689qmEnRqA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar hezheng2005/RepData_PeerAssessment1"
@@ -312,7 +312,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vgceDy1oMba/FlXdZtwcGZ980V7XxjuraaUzyT3WnDeqPGEwZcxP58I0wkkxabzKZfeSOKGPwwhLMOfgfRG+0A==" /></div>
+    <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="096X63YznWy5YrhK5OeKdwvBcWxoqLBZUdjqcCg5TEoNS1CwzIesPIy9Chv9tV8VvmSM4+NV2FFqjP5eD1pgDg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star hezheng2005/RepData_PeerAssessment1"
@@ -328,7 +328,7 @@
   </li>
 
         <li>
-          <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="U1OZ2TlamtO7BRXJ81jqJa3uaIQ2vym3DHBV5iJ5RUMNpskH4U01leDzkYyRDwWd9j1fOVJnLjI1A2idw/GXTA==" /></div>
+          <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="HZjmBOzLHsTdYWcRmpKSc9clcYaYQJmrSlwKp0cjKCtyj8w7MQMurE2s5Ea4XK8GEV8OHp0x1zXApfHZ/5CMVA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -459,7 +459,7 @@
 
 
 <div class="clone-options">You can clone with
-  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="blsktXtMi2pjT8qdLoF8F1X+d5UOpboultCXSm8TNNTkM5CsQAAmSxYxkxz0S14tEhjEK8uuNiqsHYF4DhDHXg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="c9RSx8WBCKSfPr+Rfn2xzshkz90fe7z5UmZIL/gEdinBrwIJmJGVibBwRHV//+yhllBTxO4/MWLFcXOULgkmLw==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2/I5LI6bjmz3JvaXqnGWqoCPQdhkNhMGP420ARu50WemDDll/yJiFyM+i31949reZOjmr7vOF5xI0MoqXsiKVA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Qrf8ebuI2Q4qtiu7xJXziyiLm/+znsvb+wB8kXFuWMc7z/HWZN4UFi88QIXEWG7dQPH2UwSCRtBlB4OaWEUEyw==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hsUdha3LbNLQ6i6KX4tKi4ujryzMaKfVMt39DBZsjBRdXOFtav+1Fr9goFun3qN7tdsXJedfsQebwAQexVuOog==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SY5nPdiOgj1HRYJIf2iFf721lNJj1p6r3tU11uvYix5Vg+x77XamtvbGsomyCvB5apm73H0J6Hkmu/HqQT9qcg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
   <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
     <span class="octicon octicon-question"></span>
   </a>
@@ -544,7 +544,7 @@
             </a>
         </div>
 
-          <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0ZxeOTLBtDtlnMS6E/h7Zs1FvCNx0RjbZkc+Gvai6zvbTJ8NYiOb+Julor8K6XoFBN2VuhdpneeXuRXXf2Xk6g==" /></div>
+          <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="18SAjeJWClhQKkrTKbF7ksL7dj1nbk+3Hr439lzIIMYj2F/K2l3gMcgV9hLt60xI5N48rpuav0TUdoMndxa2Qg==" /></div>
             <span class="octicon octicon-git-branch select-menu-item-icon"></span>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -633,12 +633,12 @@
             <span class="octicon octicon-device-desktop"></span>
         </a>
 
-            <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/edit/master/PA1_template.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Mk/fvTZrJ3K2n5ErzT1V+P2g9Dx3YgzNOW07QbSUEwTqjn437nXzdfOEaBkEEhIyLgpKWJ7s7he6qTu1TsUMzA==" /></div>
+            <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/edit/master/PA1_template.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CbtiTdIVrSbuMgzwt5FgJcL5UfLnWFEEqbFNQ6v1UUf0L7w77EYaZMmR/993uyU4Xncv92wz3z9qd/lsqs9x5A==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/delete/master/PA1_template.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="26/hGxhP1Clvo41GctxyKq/iuThJmcxZxxRmsdBR/923lNVU9Q+8H8HfY8JsLkGXfphzkYuJtRDbbtks5A0bWw==" /></div>
+          <form accept-charset="UTF-8" action="/hezheng2005/RepData_PeerAssessment1/delete/master/PA1_template.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IcxOPwzzeQ5MujbhylEI01QYMBPELCwM86D12MgiVdcpMuK9+tIi/H9tZgKCf8M6Mq5X3uHosY0FYaSnYeHumA==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
@@ -895,7 +895,7 @@ xyplot(<span class="pl-smi">steps</span><span class="pl-k">~</span><span class="
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.07596s from github-fe116-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.05236s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
