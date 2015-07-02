@@ -1,0 +1,99 @@
+---
+title: "德国爱他美奶粉市场调查报告"
+author: "何征"
+date: "2015年7月2日"
+output:
+  html_document:
+    keep_md: yes
+  pdf_document: default
+---
+
+```{r setoptions,echo=FALSE}
+library(knitr)
+opts_chunk$set(echo=FALSE)
+options(scipen=999)
+```
+
+##数据来源
+
+以“德国爱他美”为关键字在taobao.com搜索，在售SKU每页显示44个，搜索结果超过100页。按销量排序，下载前100页德国爱他美销售数据。数据采集时间为2015年7月1日，共提取了4400个SKU的价格及销售情况。为便于比较，从4400个SKU中又选取了3577个有每500g价格的SKU。
+
+数据提取第一页网址：
+
+http://s.taobao.com/search?q=%E5%BE%B7%E5%9B%BD%E7%88%B1%E4%BB%96%E7%BE%8E&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.7724922.8452-taobao-item.2&initiative_id=tbindexz_&cps=yes&ppath=21299%3A27413&sort=sale-desc&bcoffset=0&s=0
+
+##基本统计数据
+
+```{r basic}
+load("apa1")
+minp <- min(sd$vp)
+maxp <- max(sd$vp)
+meanp <- mean(sd$vp)
+medianp <- median(sd$vp)
+mins <- min(sd$sales)
+maxs <- max(sd$sales)
+means <- mean(sd$sales)
+medians <- median(sd$sales)
+sums <- sum(sd$sales)
+minr <- min(sd$rev)
+maxr <- max(sd$rev)
+meanr <- mean(sd$rev)
+medianr <- median(sd$rev)
+sumr <- sum(sd$rev)
+concentration <- sum(sort(sd$sales,decreasing=T)[1:8])/sum(sd$sales)
+```
+
+最高价(每500g)：`r maxp` 
+最低价(每500g)：`r minp` 
+平均价(每500g)：`r round(meanp,digits=2)` 
+中间价(每500g)：`r round(medianp,digits=2)` 
+
+最高销量：`r maxs` 
+最低销量：`r mins` 
+平均销量：`r round(means,digits=2)` 
+中间销量：`r round(medians,digits=2)` 
+总销量：`r sums`
+
+最高营业额：`r maxr` 
+最低营业额：`r minr` 
+平均营业额：`r round(meanr,digits=2)` 
+中间营业额：`r round(medianr,digits=2)` 
+总营业额：`r sumr`
+
+用销量前8位的店铺的销量占全部销量的百分比计算出市场集中度为：`r round(concentration,digits=4)*100`%
+
+##价格与销量的关系
+
+```{r priceandsales,fig.width=14}
+drawpic <- function(cutpoint,becut=sd$vp,y=sd$sales){
+  library(ggplot2)
+  dec <- cut(becut,cutpoint,include.lowest=T,right=F,ordered_result=T)
+  sa <- rowsum(y,dec)
+  sa <- as.data.frame(sa)
+  sa$price <- rownames(sa)
+  sa$price <- ordered(sa$price,levels=levels(dec))
+  g <<- ggplot(sa,aes(price,V1))
+  g+geom_line(aes(group=1))+xlab("价格")+ylab("销量")
+}
+cutpoint <- c(0,30,50,70,90,110,130,150,170,190,210,230,250,270,290,310,400,500,600,700,800,1425)
+drawpic(cutpoint)
+```
+
+##价格与营业额的关系
+```{r priceandrevenue,fig.width=14}
+drawpic <- function(cutpoint,becut=sd$vp,y=sd$sales){
+  library(ggplot2)
+  dec <- cut(becut,cutpoint,include.lowest=T,right=F,ordered_result=T)
+  sa <- rowsum(y,dec)
+  sa <- as.data.frame(sa)
+  sa$price <- rownames(sa)
+  sa$price <- ordered(sa$price,levels=levels(dec))
+  g <<- ggplot(sa,aes(price,V1))
+  g+geom_line(aes(group=1))+xlab("价格")+ylab("营业额")
+}
+drawpic(cutpoint,y=sd$rev)
+```
+
+##结论
+
+130元至150元/500g是这款奶粉最畅销的价格区间。销售价格可以订在110元至170元/500g之间，利润水平也可以根据这个价格区间计算。
